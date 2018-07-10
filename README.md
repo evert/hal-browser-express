@@ -56,13 +56,25 @@ Installation
 Getting started
 ---------------
 
-### Express
+To get started, just hook up the middleware
 
-TODO
+```javascript
+const express = require('express');
+const halBowser = require('hal-browser-express').default;
 
-### Koa
+const app = express();
+app.use(halBrowser());
+```
 
-TODO
+Or if you're using typescirpt
+
+```typescript
+import express from 'express';
+import halBrowser from 'hal-browser-express';
+
+const app = express();
+app.use(halBrowser());
+```
 
 ### Options
 
