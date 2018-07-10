@@ -1,7 +1,7 @@
 {
-  "name": "@curveball/new-package",
+  "name": "hal-browser-express",
   "version": "0.0.1",
-  "description": "Description goes here",
+  "description": "A HAL browser middleware for Express.js",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "make build",
@@ -10,31 +10,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curveballjs/new-package.git"
+    "url": "git+https://github.com/evert/hal-browser-express"
   },
   "files": [
-    "package.json",
     "README.md",
     "dist",
     "LICENSE"
   ],
   "keywords": [
+    "hal",
+    "hateoas",
     "http",
-    "framework",
-    "nodejs",
     "typescript",
-    "push",
-    "http2",
-    "curveball"
+    "express"
   ],
   "author": "Evert Pot (https://evertpot.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/curveballjs/new-package/issues"
+    "url": "https://github.com/evert/hal-browser-express"
   },
-  "homepage": "https://github.com/curveballjs/new-package#readme",
+  "homepage": "https://github.com/evert/hal-browser-express#readme",
   "devDependencies": {
     "@types/chai": "^4.1.4",
+    "@types/highlight.js": "^9.12.3",
+    "@types/markdown-it": "0.0.4",
     "@types/mocha": "^5.2.3",
     "@types/node": "^10.3.6",
     "@types/sinon": "^5.0.1",
@@ -53,6 +52,7 @@
     ]
   },
   "dependencies": {
-    "@curveball/core": "^0.4.1"
+    "@curveball/core": "^0.4.2",
+    "hal-browser": "^0.4.0"
   }
 }
