@@ -98,7 +98,7 @@ settings:
 
 Example:
 
-```javacript
+```javascript
 app.use(halBrowser({
   title: 'My API',
   stylesheets: [
