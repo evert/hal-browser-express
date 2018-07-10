@@ -54,7 +54,7 @@
     ]
   },
   "dependencies": {
-    "@curveball/core": "^0.4.2",
-    "hal-browser": "^0.4.0"
+    "@curveball/core": "^0.4.3",
+    "hal-browser": "^0.4.1"
   }
 }
